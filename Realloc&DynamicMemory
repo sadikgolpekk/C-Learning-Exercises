@@ -18,5 +18,6 @@ p_dizi=realloc(p_dizi,karaktersayisi*sizeof(char));
 printf("%s\n",p_dizi);
 printf("Stringin boyutu: %d\n",strlen(p_dizi));
 printf("bellegin boyutu: %d\n",strlen(p_dizi)+1);
+free(p_dizi);
 return 0;
 }
